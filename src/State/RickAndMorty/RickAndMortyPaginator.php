@@ -1,10 +1,10 @@
 <?php
 
-namespace App\State;
+namespace App\State\RickAndMorty;
 
 use ApiPlatform\State\Pagination\PaginatorInterface;
 
-class RandMPaginator implements \IteratorAggregate, PaginatorInterface
+class RickAndMortyPaginator implements \IteratorAggregate, PaginatorInterface
 {
     public function __construct(
         private readonly array $documents,
