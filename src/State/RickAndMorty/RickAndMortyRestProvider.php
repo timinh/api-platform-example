@@ -20,7 +20,7 @@ class RickAndMortyRestProvider implements ProviderInterface
     }
 
     public function provide(Operation $operation, array $uriVariables = [], array $context = []): object|array|null
-    {;
+    {
         $shortname =\strtolower($operation->getShortName());
         $classname = $operation->getClass();
         if($operation instanceof CollectionOperationInterface) {
