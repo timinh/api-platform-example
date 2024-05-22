@@ -2,7 +2,7 @@
 
 namespace App\Filter;
 
-use ApiPlatform\Api\FilterInterface;
+use ApiPlatform\Metadata\FilterInterface;
 use Symfony\Component\PropertyInfo\Type;
 
 class RestFilter implements FilterInterface
